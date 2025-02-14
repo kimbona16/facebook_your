@@ -1,0 +1,21 @@
+بالطبع! إليكِ الأكواد جاهزة لتنسخيها وتلصقيها مباشرة في ملفاتك:
+
+1. index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Facebook Clone</h1>
+        
+        <!-- رابط لتسجيل الدخول -->
+        <a href="login.html" class="login-link">Login</a>
+    </div>
+</body>
+</html>
