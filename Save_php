@@ -1,0 +1,10 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    // حفظ بيانات المستخدم (هنا لم أضف قاعدة بيانات، يمكن حفظ البيانات في ملف أو عرضها فقط)
+    echo "<h1>Welcome, $username!</h1>";
+    echo "<p>Your password is: $password</p>";
+}
+?>
