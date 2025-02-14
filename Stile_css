@@ -1,0 +1,62 @@
+/* تنسيق عام */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* تنسيق صفحة الرئيسية */
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #3b5998; /* اللون الأزرق الخاص بفيسبوك */
+}
+
+.login-link {
+    text-decoration: none;
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* تنسيق صفحة تسجيل الدخول */
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3b5998;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #365899;
+}
